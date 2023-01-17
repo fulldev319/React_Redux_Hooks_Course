@@ -21,8 +21,8 @@ import { Provider } from "react-redux";
 //   };
 // };
 
-// // 3. Reducer - describe how an action changes from one state into another
-// //            - reducer will check which action is called and store will be modified based on the action
+// 3. Reducer - describe how an action changes from one state into another
+//            - reducer will check which action is called and store will be modified based on the action
 // const petCounter = (state = 0, action) => {
 //   switch (action.type) {
 //     case "PET_INCREASED":
@@ -36,7 +36,7 @@ import { Provider } from "react-redux";
 // let store = createStore(petCounter);
 // store.subscribe(() => console.log(store.getState()));
 
-// // 4. Dispatch - perform the action to reducer
+// 4. Dispatch - perform the action to reducer
 // store.dispatch(petIncrement());
 // store.dispatch(petIncrement());
 // store.dispatch(petDecrement());
